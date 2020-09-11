@@ -3,11 +3,13 @@
 .classpath
 .settings/
 bin/
+**/target/**
 
 # IntelliJ
 .idea
 *.ipr
 *.iml
+**.iml
 *.iws
 .mvn
 # NetBeans
@@ -29,7 +31,6 @@ nb-configuration.xml
 *.rej
 
 # Maven
-*/target/
 services/api/target
 pom.xml.tag
 pom.xml.releaseBackup
